@@ -14,7 +14,7 @@ $manifest = array(
     'is_uninstallable' => true,
     'published_date' => '2023-03-28',
     'type' => 'module',
-    'version' => '0.2.0.cisystem',
+    'version' => '0.2.1.cisystem',
   'dependencies' => array(
     array(
       'id_name' => 'hs321_erp',
