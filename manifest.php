@@ -12,13 +12,13 @@ $manifest = array(
     'author' => 'Leon.V.Nikitin (nlv@lab321.com)',
     'description' => 'Добавление ERP функционала в SuiteCRM',
     'is_uninstallable' => true,
-    'published_date' => '2023-03-15',
+    'published_date' => '2023-03-28',
     'type' => 'module',
-    'version' => '0.0.1',
+    'version' => '0.2.0',
   'dependencies' => array(
     array(
       'id_name' => 'hs321_erp',
-      'version' => '0.0',
+      'version' => '0.2',
     ),
   ),
 );
