@@ -12,13 +12,13 @@ $manifest = array(
     'author' => 'Leon.V.Nikitin (nlv@lab321.com)',
     'description' => 'Добавление ERP функционала в SuiteCRM - вариант для CISYSTEM.RU',
     'is_uninstallable' => true,
-    'published_date' => '2023-04-07',
+    'published_date' => '2023-04-12',
     'type' => 'module',
-    'version' => '0.5.0.cisystem',
+    'version' => '0.6.0.cisystem',
   'dependencies' => array(
     array(
       'id_name' => 'hs321_erp',
-      'version' => '0.5',
+      'version' => '0.6',
     ),
   ),
 );
@@ -29,5 +29,17 @@ $installdefs = array(
             'from' => '<basepath>/source/copy',
             'to' => '.',
         ),
+    ),
+    'language'=> array (
+      array(
+          'from'=> '<basepath>/source/language/modules/AOS_Contracts/ru_ru.lang.php',
+          'to_module'=> 'AOS_Contracts',
+          'language'=>'ru_ru'
+      ),
+      array(
+          'from'=> '<basepath>/source/language/modules/AOS_Contracts/en_us.lang.php',
+          'to_module'=> 'AOS_Contracts',
+          'language'=>'en_us'
+      ),    
     ),
 );
