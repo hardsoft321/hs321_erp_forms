@@ -12,13 +12,13 @@ $manifest = array(
     'author' => 'Leon.V.Nikitin (nlv@lab321.com)',
     'description' => 'Добавление ERP функционала в SuiteCRM',
     'is_uninstallable' => true,
-    'published_date' => '2023-04-14',
+    'published_date' => '2023-04-27',
     'type' => 'module',
-    'version' => '0.7.0',
+    'version' => '0.10.0',
   'dependencies' => array(
     array(
       'id_name' => 'hs321_erp',
-      'version' => '0.7',
+      'version' => '0.10',
     ),
   ),
 );
@@ -40,6 +40,6 @@ $installdefs = array(
           'from'=> '<basepath>/source/language/modules/AOS_Contracts/en_us.lang.php',
           'to_module'=> 'AOS_Contracts',
           'language'=>'en_us'
-      ),    
+      ),
     ),
 );
